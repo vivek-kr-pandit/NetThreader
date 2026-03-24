@@ -1,11 +1,10 @@
-# ⚡ NetThreader
+# ⚡ NetThreader - Multithreaded Port Scanner
 
 A fast multithreaded port scanner built in Python with live progress tracking and automatic Nmap integration.
 
 ## 🚀 Features
 
-- ⚡ Multithreaded port scanning (1–65535)
-- 📊 Live progress indicator
+- ⚡ Multithreaded port scanning
 - 🟢 Detects open ports in real-time
 - 📁 Saves results to file
 - 🎯 Smart Nmap command generation
@@ -18,8 +17,13 @@ A fast multithreaded port scanner built in Python with live progress tracking an
 
 ## 📦 Installation
 
+You need to have Python version 3.4+
 ```bash
-git clone https://github.com/yourusername/NetThreader.git
+sudo apt-get install python3
+```
+
+```bash
+git clone https://github.com/vivek-kr-pandit/NetThreader.git
 cd NetThreader
 ```
 
@@ -27,3 +31,4 @@ cd NetThreader
 ```bash
 python netthreader.py
 ```
+![Example](https://github.com/user-attachments/assets/48ab2fb9-d6f1-400c-b3ad-36f7aa486c43)
